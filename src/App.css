@@ -1,0 +1,215 @@
+body{
+  background: url('https://img.freepik.com/free-vector/gradient-glassmorphism-background_52683-86366.jpg');
+  color: aliceblue;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main{
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10.5px );
+-webkit-backdrop-filter: blur( 10.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  height: 100vh;
+  width: 350px;
+  overflow: auto;
+}
+.btnheights{
+  height: 20px;
+  width: 30px;
+}
+.sticky{
+  position: sticky;
+}
+.blackborder{
+  border: 0.2px solid black;
+}
+.circle{
+  border-radius: 50%;
+}
+.fixed{
+  position: fixed;
+}
+.pointer{
+  cursor: pointer;
+}
+.absolute{
+  position: absolute;
+}
+.flex{
+  display: flex;
+}
+.flexWrap{
+  flex-wrap: wrap;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spb{
+  justify-content: space-between;
+}
+.testborder{
+  border: 2px solid red ;
+}
+.header{
+  justify-content: space-evenly;
+    padding: 2px 2px;
+    margin: 13px 0px;
+    font-size: 2em;
+    text-shadow: 0.1em 0.1em 0 hsl(0deg 0% 0%);
+}
+textarea{
+  padding: 5px 5px;
+}
+textarea:focus{
+  outline: none;
+}
+.prevmenu{
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.denseglass{
+  background: rgba( 255, 255, 255, 0.35 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.prevbox{
+  background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color:#120E26;
+  height: 180px;
+  width: 165px;
+  margin: 7px 0;
+  border-radius: 10px;
+}
+.main::-webkit-scrollbar {
+  overscroll-behavior: none;
+  width: 0.2em;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  height: 0px;
+}
+.main::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
+}
+.prevbox h4, p {
+  height: 13%;
+  margin: 5px;
+  background: rgba( 255, 255, 255, 0.6 );
+  padding: 1px 5px;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.prevbox p{
+  height: 62%;
+  overflow: hidden;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #414141;
+}
+.panel{
+  height: 20px;
+  width: 68px;
+  border-radius: 10px;
+  border: 0.2px solid white;
+  position: absolute;
+  bottom: -12px;
+  right: 47px;
+  font-size: 0.9em;
+  justify-content: space-evenly;
+  color:black;
+}
+
+.addicon{
+  color: white;
+  background: rgb(0 0 0);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  bottom: 46px;
+  left: 250px;
+  font-size: 1.4em;
+}
+.editmenu{
+  height: 50px;
+  width: 100%;
+  
+}
+.btns{
+  margin: 0px 3px;
+}
+.capture {
+  border: 0.2px solid black;
+  color: black;
+  width: 101px;
+  height: 19px;
+  border-radius: 8px 0px 0px 8px;
+  background: transparent;
+  padding: 0px 8px;
+}
+.capture:focus{
+  outline: none;
+}
+.btnstyle{
+  border-radius: 8px;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+.btnstyle:hover {
+  background: black;
+  color: white;
+}
+.title{
+  resize: none;
+  width: 90%;
+  margin: 0px 10px;
+  height: 55px;
+}
+.content{
+  resize: none;
+  width: 90%;
+  margin: 0px 10px;
+  height: 512px;
+}
+.save {
+  height: 25px;
+  width: 157px;
+  bottom: 12px;
+  left: 68px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.save:hover{
+  color: white;
+  background: black;
+}
+
+.yt{
+    width: 80%;
+    height: 100hv;
+}
+.yt iframe{
+  position: absolute;
+}
+.mag{
+  color: white;
+  border: 0.2px solid black;
+  background: black;
+  margin: 0px -3px;
+  padding: 1.5px 4px;
+  border-radius: 0px 8px 8px 0px;
+}

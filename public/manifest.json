@@ -1,0 +1,14 @@
+{
+  "name": "CC notes",
+  "version":"0.0.1",
+  "manifest_version":3,
+  "action":{
+    "default_popup":"./index.html"
+  },
+  "permissions":[
+    "scripting",
+    "activeTab",
+    "storage"
+  ]
+  
+}
