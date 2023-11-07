@@ -30,13 +30,6 @@ export default function Mainpage() {
   }
   return (
     <div className='main' style={{height:'100vh'}}>
-      <span className='header flex spb'>
-        <img src={img} height='85px'/>
-        <div style={{textAlign:'center',padding:"0px 5px"}}>
-        <h6 style={{margin:'3px 3px'}}>Supported apps</h6>
-        <img src={ytlogo} height='40px' ></img>
-        </div>
-        </span>
       
       <div className='prevmenu flex'>
         {

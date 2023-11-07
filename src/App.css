@@ -1,5 +1,5 @@
 body{
-  background: url('https://img.freepik.com/free-vector/gradient-glassmorphism-background_52683-86366.jpg');
+  background: coral;
   color: aliceblue;
   margin: 0px;
   padding: 0px;
@@ -81,7 +81,7 @@ textarea:focus{
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .prevbox{
-  background: rgba( 255, 255, 255, 0.35 );
+  background:white;
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 10.5px );
 border-radius: 10px;
@@ -106,10 +106,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .prevbox h4, p {
   height: 13%;
   margin: 5px;
-  background: rgba( 255, 255, 255, 0.6 );
-  padding: 1px 5px;
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 7.5px );
+ background-color: white;
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
@@ -168,10 +165,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   color: black;
   transition: all 0.3s ease-in-out;
 }
-.btnstyle:hover {
-  background: black;
-  color: white;
-}
+
 .title{
   resize: none;
   width: 90%;
@@ -193,10 +187,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   border-radius: 8px;
   transition: all 0.3s ease-in-out;
 }
-.save:hover{
-  color: white;
-  background: black;
-}
+
 
 .yt{
     width: 80%;
